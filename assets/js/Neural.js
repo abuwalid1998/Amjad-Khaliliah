@@ -21,20 +21,20 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             move: {
                 enable: true,
-                speed: 0.5, // Slow speed for a smooth effect
+                speed: 1, // Slow speed for a smooth effect
                 direction: "none",
                 random: false,
                 straight: false,
                 out_mode: "out",
-                attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                attract: { enable: true, rotateX: 600, rotateY: 1200 }
             }
         },
         interactivity: {
             detect_on: "canvas",
             events: {
-                onhover: { enable: false, mode: "repulse" }, // Repulse on hover for interaction
+                onhover: { enable: true, mode: "repulse" }, // Repulse on hover for interaction
                 onclick: { enable: true, mode: "push" },
-                resize: false
+                resize: true
             },
             modes: {
                 grab: { distance: 400, line_linked: { opacity: 1 } },
@@ -46,4 +46,4 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         retina_detect: true
     });
-}, false);
+}, true);
