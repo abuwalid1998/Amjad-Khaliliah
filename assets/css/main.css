@@ -4867,7 +4867,7 @@ a img {
     color: #fff;
     white-space: nowrap; /* Prevents text wrapping */
     overflow: hidden; /* Hides the text beyond the width of the container */
-    display: block;
+    display: inline-block; /* Ensures it's inline */
     border-right: 2px solid #fafafa; /* Simulates a cursor */
     animation: blink 0.5s step-end infinite;
 }
