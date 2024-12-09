@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     new SweetScroll({}); // Smooth scroll initialization
     particlesJS("particles-js", {
         particles: {
-            number: { value: 50, density: { enable: false, value_area: 400 } },
+            number: { value: 100, density: { enable: false, value_area: 400 } },
             color: { value: "#7e1d1d" }, // Green color to symbolize neural nodes
             shape: {
                 type: "square", // Neural nodes as circles
