@@ -4872,11 +4872,6 @@ a img {
     animation: blink 0.5s step-end infinite;
 }
 
-@keyframes blink {
-    from, to { border-color: transparent; }
-    50% { border-color: #f6f6f6; }
-}
-
 
 @media only screen and (min-width:550px) {
     .header .site-title {
