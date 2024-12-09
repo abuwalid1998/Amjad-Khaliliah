@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             events: {
                 onhover: { enable: false, mode: "repulse" }, // Repulse on hover for interaction
                 onclick: { enable: true, mode: "push" },
-                resize: true
+                resize: false
             },
             modes: {
                 grab: { distance: 400, line_linked: { opacity: 1 } },
